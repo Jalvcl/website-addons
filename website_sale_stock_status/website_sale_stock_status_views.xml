@@ -11,16 +11,16 @@
 		<template id="products_item" inherit_id="website_sale.products_item" name="Product item">
 			<xpath expr="//div[@class='ribbon-wrapper']" position="after">
 				<div class="ribbon-wrapper-custom ribbon-new">
-					<div class="ribbon btn btn-danger">New</div>
+					<div class="ribbon btn btn-danger">Nuevo</div>
 				</div>
 				<div class="ribbon-wrapper-custom-big ribbon-new-release">
-					<div class="ribbon btn btn-danger">NEW RELEASE</div>
+					<div class="ribbon btn btn-danger">Nueva Versión</div>
 				</div>
 				<div class="ribbon-wrapper-custom-big ribbon-backordered">
-					<div class="ribbon btn btn-danger">Backordered</div>
+					<div class="ribbon btn btn-danger">No Disponible</div>
 				</div>
 				<div class="ribbon-wrapper-custom-big ribbon-discontinued">
-					<div class="ribbon btn btn-danger">Discontinued</div>
+					<div class="ribbon btn btn-danger">Discontinuado</div>
 				</div>
 				<div class="ribbon-wrapper-custom-big ribbon-pre-order-now">
 					<div class="ribbon btn btn-danger">Pre order now!</div>
