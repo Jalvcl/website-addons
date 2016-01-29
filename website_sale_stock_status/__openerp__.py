@@ -1,7 +1,8 @@
 {
     'name' : 'Product status at website shop',
     'version' : '1.0.1',
-    'author' : 'Ivan Yelizariev',
+    'author' : 'IT-Projects LLC, Ivan Yelizariev',
+    'license': 'GPL-3',
     'category' : 'Sale',
     'website' : 'https://yelizariev.github.io',
     'depends' : ['website_sale', 'stock'],
